@@ -1,9 +1,9 @@
 setup.py
-statannot/StatResult.py
-statannot/__init__.py
-statannot/_version.py
-statannot/statannot.py
-statannot/utils.py
+statannotcolor/StatResult.py
+statannotcolor/__init__.py
+statannotcolor/_version.py
+statannotcolor/statannot.py
+statannotcolor/utils.py
 statannotcolor.egg-info/PKG-INFO
 statannotcolor.egg-info/SOURCES.txt
 statannotcolor.egg-info/dependency_links.txt

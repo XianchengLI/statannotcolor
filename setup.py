@@ -5,7 +5,7 @@ import re
 with open("readme.md", "r") as f:
     long_description = f.read()
 
-VERSIONFILE = "statannot/_version.py"
+VERSIONFILE = "statannotcolor/_version.py"
 verstrline = open(VERSIONFILE, "rt").read()
 match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]", verstrline, re.M)
 if match:
