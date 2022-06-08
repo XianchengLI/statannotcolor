@@ -33,7 +33,7 @@ pip install statannotcolor
 You may instead want to use the development version from Github:
 
 ```python
-pip install git+https://github.com/webermarcolivier/statannot.git
+pip install ttps://github.com/XianchengLI/statannotcolor.git
 ```
 
 ## Documentation
@@ -43,6 +43,8 @@ See example jupyter notebook `example/example.ipynb`.
 ## Usage
 
 Here is a minimal example:
+
+
 
 ```python
 import seaborn as sns
