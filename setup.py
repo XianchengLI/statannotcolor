@@ -22,7 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,   
     url="https://github.com/XianchengLI/statannotcolor",
-    download_url = "https://github.com/XianchengLI/statannotcolor/archive/refs/tags/v0.1.1.tar.gz",
+    download_url = "https://github.com/XianchengLI/statannotcolor/archive/refs/tags/v0.1.5.tar.gz",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
