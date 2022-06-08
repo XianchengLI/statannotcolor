@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
 Name: statannotcolor
-Version: 0.1.5
+Version: 0.1.6
 Summary: add color to statannot
 Home-page: https://github.com/XianchengLI/statannotcolor
 Author: Xiancheng LI
 Author-email: Xiancheng.li@hotmail.com
 License: UNKNOWN
-Download-URL: https://github.com/XianchengLI/statannotcolor/archive/refs/tags/v0.1.5.tar.gz
 Description: # Disclaimer
         
         This repository is based on webermarcolivier/statannot (commit 1835078 of Feb 21, 2020, tagged "v0.2.3"). Another version available can be found in https://github.com/trevismd/statannotations

@@ -22,13 +22,14 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,   
     url="https://github.com/XianchengLI/statannotcolor",
-    download_url = "https://github.com/XianchengLI/statannotcolor/archive/refs/tags/v0.1.5.tar.gz",
+    # download_url = "https://github.com/XianchengLI/statannotcolor/archive/refs/tags/v0.1.5.tar.gz",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=open("requirements.txt").readlines(),
+    #install_requires=open("requirements.txt").readlines(),
     python_requires='>=3.5',
 )
+
