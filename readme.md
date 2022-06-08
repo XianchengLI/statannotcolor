@@ -46,21 +46,7 @@ Here is a minimal example:
 
 
 
-```python
-import seaborn as sns
-from statannot import add_stat_annotation
 
-df = sns.load_dataset("tips")
-x = "day"
-y = "total_bill"
-order = ['Sun', 'Thur', 'Fri', 'Sat']
-ax = sns.boxplot(data=df, x=x, y=y, order=order)
-test_results = add_stat_annotation(ax, data=df, x=x, y=y, order=order,
-                                   box_pairs=[("Thur", "Fri"), ("Thur", "Sat"), ("Fri", "Sun")],
-                                   test='Mann-Whitney', text_format='star',
-                                   loc='outside', verbose=2)
-test_results
-```
 
 More examples are available in the jupyter notebook `example/example.ipynb`.
 

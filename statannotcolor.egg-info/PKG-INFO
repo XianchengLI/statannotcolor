@@ -1,7 +1,7 @@
-Metadata-Version: 1.2
+Metadata-Version: 2.1
 Name: statannotcolor
-Version: 0.1.1
-Summary: add color to statannot.
+Version: 0.1.3
+Summary: add color to statannot
 Home-page: https://github.com/XianchengLI/statannotcolor
 Author: Xiancheng LI
 Author-email: Xiancheng.li@hotmail.com
@@ -42,7 +42,7 @@ Description: # Disclaimer
         You may instead want to use the development version from Github:
         
         ```python
-        pip install git+https://github.com/webermarcolivier/statannot.git
+        pip install ttps://github.com/XianchengLI/statannotcolor.git
         ```
         
         ## Documentation
@@ -53,21 +53,9 @@ Description: # Disclaimer
         
         Here is a minimal example:
         
-        ```python
-        import seaborn as sns
-        from statannot import add_stat_annotation
         
-        df = sns.load_dataset("tips")
-        x = "day"
-        y = "total_bill"
-        order = ['Sun', 'Thur', 'Fri', 'Sat']
-        ax = sns.boxplot(data=df, x=x, y=y, order=order)
-        test_results = add_stat_annotation(ax, data=df, x=x, y=y, order=order,
-                                           box_pairs=[("Thur", "Fri"), ("Thur", "Sat"), ("Fri", "Sun")],
-                                           test='Mann-Whitney', text_format='star',
-                                           loc='outside', verbose=2)
-        test_results
-        ```
+        
+        
         
         More examples are available in the jupyter notebook `example/example.ipynb`.
         
@@ -96,3 +84,4 @@ Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.5
+Description-Content-Type: text/markdown
